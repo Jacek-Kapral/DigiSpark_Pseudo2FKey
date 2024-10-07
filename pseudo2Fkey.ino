@@ -20,7 +20,7 @@ void loop() {
 
    if(digitalRead(1)==HIGH){
    
-    DigiKeyboard.print("Mock_Password_No_1");
+    DigiKeyboard.print("Mock_Password_No_2");
     DigiKeyboard.delay(200);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(500);
@@ -29,7 +29,7 @@ void loop() {
 
    if(digitalRead(2)==HIGH){
    
-    DigiKeyboard.print("Mock_Password_No_1");
+    DigiKeyboard.print("Mock_Password_No_3");
     DigiKeyboard.delay(200);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(500);
