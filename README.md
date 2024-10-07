@@ -27,8 +27,7 @@ manager, every button triggering different string.
 > even though without proper context it is not very useful.
 ---
 
-
-Setting it up:
+###Assembly and set up:
 
 At some point Digispark microcontroller was well supported, with Digistump website containing all
 the required drivers, libraries and instructions needed to set up. Unfortunatelly, the support
@@ -43,18 +42,44 @@ most of them have either micro usb or usb-c port.
 That usb plug makes a world of difference in one particular project.
 
 
-Let's start:
+**Let's start with things we'll need:**
+
+Obviously, a Digispark development board:
+
+![Picture of Digispark board](/pics/a001_digisparkboard.png)
+
+Three 10 kOhm resistors:
+
+![Picture of 10kohm resistors](/pics/a002_resistors.png)
+
+Three microswitches:
+
+![Picture of microswitches box](/pics/a004_switches.png)
+
+Wires - i got mine from decomissioned printer, whatever is easy to solder:
+
+![Picture of wires](/pics/a003_wires.png).
+
+This is the schematic of how You should solder all elements together:
+
+![Picture of schematic](/pics/a000_schematic.png)
+
+And here's mine soldered:
+
+![Picture of soldered elements](/pics/a005_soldered.png)
+
+**Now, for the programming part:**
 
 In Arduino IDE go to "File", then "Preferences", and in "Additional boards manager URLs":
 
-![Screenshot with Arduino IDE preferences](/screenshots/0002_digisparkkey.png)
+![Screenshot with Arduino IDE preferences](/pics/0002_digisparkkey.png)
 
 paste this link: https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
 
 Then go to  Boards Manager (Ctrl-Shift-B) or Tools -> Board -> Boards Manager
 and look for "Digistump [...]":
 
-![Screenshot with Boards Manager](/screenshots/0005_digisparkkey.png)
+![Screenshot with Boards Manager](/pics/0005_digisparkkey.png)
 
 and install the library.
 
@@ -63,11 +88,11 @@ You can get them here: https://forum.arduino.cc/uploads/short-url/cMw5fnHVHxqVfO
 (BTW: Link to the whole thread about Digispark being abandoned: https://forum.arduino.cc/t/digistump-digispark-no-longer-available/1234095/6)
 After downloading and unpacking, install appropriate version: - DPinst for 32 bit system and DPinst64 for 64 bit.
 
-![Screenshot with Drivers](/screenshots/0008_digisparkkey.png)
+![Screenshot with Drivers](/pics/0008_digisparkkey.png)
 
 Now, in Arduino IDE choose the adequate board (Tools -> Board -> Digistump AVR Boards -> Digispark (Default - 16.5mhz):
 
-![Screenshot with board selection](/screenshots/0006_digisparkkey.png)
+![Screenshot with board selection](/pics/0006_digisparkkey.png)
 
 Connect the Digispark to USB port and You're **theoretically** ready to program Your microcontroller. 
 I say "theoretically" because I've stumbled upon a problem that was quite strange, but turns out not
@@ -76,7 +101,7 @@ or so seconds it played the unplug sound, and like that in a loop.
 Turns out some of those Digispark boards don't have bootloader installed as a default, so if the board appears
 in Your Device Manager:
 
-![Screenshot with board driver present in Device Manager](/screenshots/0007_digisparkkey.png)
+![Screenshot with board driver present in Device Manager](/pics/0007_digisparkkey.png)
 
 Just copy the code to Your Arduino IDE and upload it to the board. 
 In my case, after the program was compiled and uploaded, operating system recognized the board
