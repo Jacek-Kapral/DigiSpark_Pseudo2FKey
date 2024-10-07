@@ -10,7 +10,7 @@ since she's not really convinced to use it because of long and complicated passw
 the database (which frankly was my suggestion).
      
 ---
-**I'll point the obvious right away**: This is not a secure solution and is intended to use at home.
+<b>I'll point the obvious right away</b>: This is not a secure solution and is intended to use at home.
 I'm very aware that passwords are <u>not</u> stored in a secure way, besides, using the thingy reveals stored
 passwords. 
 The idea is to *lessen the burden* of using password manager secured with complicated password.
