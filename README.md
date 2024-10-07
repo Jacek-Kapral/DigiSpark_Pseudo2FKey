@@ -27,7 +27,7 @@ manager, every button triggering different string.
 > even though without proper context it is not very useful.
 ---
 
-###Assembly and set up:
+### Assembly and set up:
 
 At some point Digispark microcontroller was well supported, with Digistump website containing all
 the required drivers, libraries and instructions needed to set up. Unfortunatelly, the support
@@ -58,7 +58,7 @@ Three microswitches:
 
 Wires - i got mine from decomissioned printer, whatever is easy to solder:
 
-![Picture of wires](/pics/a003_wires.png).
+![Picture of wires](/pics/a003_wires.png)
 
 This is the schematic of how You should solder all elements together:
 
