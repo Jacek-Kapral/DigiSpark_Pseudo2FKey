@@ -5,22 +5,22 @@ Some time ago I bought myself some electronics to experiment with, having in min
 like moisture meter for inhouse plants, door peephole camera and others. 
 One of those gizmos was a small microcontroller - Digistump DigiSpark ATTiny85, for which I initially had
 something other in mind (I'm going to describe that later), but came up with an idea that would make 
-the need to use a password manager software my girlfriend's "digital" life easier - and a bit safer - 
-since she's not really convinced to use it because of long and complicated password needed to unlock
-the database (which frankly was my suggestion).
+the "digital" part of my girlfriend's life easier and tad bit safer. She's not really convinced to use 
+a password manager because of long and complicated password needed to unlock the database (which frankly 
+was my suggestion).
 
 My project basically comes down to this:
 
 (placeholder)
 
-It's a usb dongle with three buttons, that - when pressed - input a string of characters assigned
+It's an usb dongle with three buttons, that - when pressed - input a string of characters assigned
 to given button, with intention of filling the "Master password" field of Keepass or other password
 manager, every button triggering different string.
 
 ---
 > [!WARNING]
 > I'll point the obvious right away: This is not a secure solution and is intended to use at home.
-> I'm very aware that passwords are __not__ stored in a secure way, besides, using the thingy reveals stored
+> I'm very aware that passwords are **not** stored in a secure way, besides, using the thingy reveals stored
 > passwords. 
 > The idea is to *lessen the burden* of using password manager secured with complicated password.
 > If You loose this thing somewhere in public, consider Your password / database compromised,
