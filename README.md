@@ -1,7 +1,7 @@
 # DigiSpark Hardware Password Key
 ### A very simple, hardware password key for people who don't want to remember their password manager credentials ;)
 
-Some time ago I've bought myself some electronics to experiment with, having in mind a few simple projects,
+Some time ago I bought myself some electronics to experiment with, having in mind a few simple projects,
 like moisture meter for inhouse plants, door peephole camera and others. 
 One of those gizmos was a small microcontroller - Digistump DigiSpark ATtiny85, for which I initially had
 something other in mind (I'm going to describe that later), but came up with an idea that would make 
@@ -11,7 +11,7 @@ the database (which frankly was my suggestion).
      
 ---
 > [!WARNING]
-> I'll point the obvious right away__: This is not a secure solution and is intended to use at home.
+> I'll point the obvious right away: This is not a secure solution and is intended to use at home.
 > I'm very aware that passwords are <u>not</u> stored in a secure way, besides, using the thingy reveals stored
 > passwords. 
 > The idea is to *lessen the burden* of using password manager secured with complicated password.
